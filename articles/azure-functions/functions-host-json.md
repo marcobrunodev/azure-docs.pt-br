@@ -21,7 +21,7 @@ O arquivo de metadados *host.json* contém opções de configuração global que
 > [!NOTE]
 > Este artigo é para o Azure Functions 2. x e versões posteriores.  Para obter uma referência de host.json no Functions 1.x, confira [Referência de host.json para o Azure Functions 1.x](functions-host-json-v1.md).
 
-Outras opções de configuração de aplicativo de funções são gerenciadas em suas [configurações de aplicativo](functions-app-settings.md) (para aplicativos implantados) ou seu [local.settings.jsno](functions-run-local.md#local-settings-file) arquivo (para desenvolvimento local).
+Outras opções de configuração de aplicativo de funções são gerenciadas em suas [configurações de aplicativo](functions-app-settings.md) (para aplicativos implantados) ou seu [local.settings.json](functions-run-local.md#local-settings-file) arquivo (para desenvolvimento local).
 
 As configurações no host.jsrelacionadas às associações são aplicadas igualmente a cada função no aplicativo de funções. 
 
@@ -29,7 +29,7 @@ Você também pode [substituir ou aplicar configurações por ambiente](#overrid
 
 ## <a name="sample-hostjson-file"></a>Arquivo host.json de exemplo
 
-O exemplo a seguir *host.jsno* arquivo para a versão 2. x + tem todas as opções possíveis especificadas (excluindo as que são apenas para uso interno).
+O exemplo a seguir *host.json* arquivo para a versão 2. x + tem todas as opções possíveis especificadas (excluindo as que são apenas para uso interno).
 
 ```json
 {
